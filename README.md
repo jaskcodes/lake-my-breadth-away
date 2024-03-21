@@ -17,7 +17,7 @@ The [GLEV dataset](https://zeternity.users.earthengine.app/view/glev) comprises 
 ## Key Findings
 
 - **Case Study on Lake Tahoe:** An extensive analysis of Lake Tahoe revealed significant seasonal patterns in water evaporation rates and temperature, with a notable correlation between temperature and water evaporation volume (0.846055).
-[Lake data EDA](images/EDA.png)
+[Lake data EDA](images/eda.png)
 - **Predictive Modeling:** The ARIMAX model, incorporating temperature and precipitation as regressors, emerged as the best model for predicting water evaporation rates, showcasing the complex interplay between weather variables and evaporation.
 - **Water Body Loss and Evaporation:** A broad analysis across 100 lakes in the U.S. identified general patterns in lake size changes and evaporation rates, highlighting the utility of predictive models in understanding water body dynamics.
 - **Lake Classification:** Employing hierarchical clustering, the project classifies lakes globally, offering insights into the diverse behaviors and characteristics of lakes under varying climatic conditions.

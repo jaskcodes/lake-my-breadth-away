@@ -16,12 +16,17 @@ The [GLEV dataset](https://zeternity.users.earthengine.app/view/glev) comprises 
 
 ## Key Findings
 
-- **Case Study on Lake Tahoe:** An extensive analysis of Lake Tahoe revealed significant seasonal patterns in water evaporation rates and temperature, with a notable correlation between temperature and water evaporation volume (0.846055).
+- **Case Study on Lake Tahoe:** We performed an extendive analysis of Lake Tahoe revealed significant seasonal patterns in water evaporation rates and temperature, with a notable correlation between temperature and water evaporation volume (0.846055).
 ![alt text](images/eda.png)
 - **Predictive Modeling:** The ARIMAX model, incorporating temperature and precipitation as regressors, emerged as the best model for predicting water evaporation rates, showcasing the complex interplay between weather variables and evaporation.
-- **Water Body Loss and Evaporation:** A broad analysis across 100 lakes in the U.S. identified general patterns in lake size changes and evaporation rates, highlighting the utility of predictive models in understanding water body dynamics.
-- **Lake Classification:** Employing hierarchical clustering, the project classifies lakes globally, offering insights into the diverse behaviors and characteristics of lakes under varying climatic conditions.
+![alt text](images/ARIMA.png)
+- **Water Body Loss and Evaporation:** We also performed a broad analysis and identified a general model across 100 lakes in the U.S. to identify general patterns in lake size changes and evaporation rates. We also employed cross validation for different models for both sliding and expanding windows to identify the most accurate and consistent approach. ARIMA performed better in both sliding and expanding windows.
+![alt text](images/cross_val.png)
+- **Lake Classification:** We employed hierarchical clustering to classify lakes globally, offering insights into the diverse behaviors and characteristics of lakes under varying climatic conditions.
+
 
 ## Web Application
 
 A web application is developed to facilitate the prediction of lake water bodies into the future, accessible at: [Lake Predictor](https://ethanapps.shinyapps.io/lake_predictor/). This tool leverages the best predictive models to offer users actionable insights into lake evaporation dynamics.
+![alt text](images/web_app.png)
+

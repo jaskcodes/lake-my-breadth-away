@@ -2,8 +2,8 @@
 
 ## Collaborators
 
-Grey Xu
-Setu Loomba
+Grey Xu,
+Setu Loomba,
 Ethan Arsht
 
 ## Project Overview

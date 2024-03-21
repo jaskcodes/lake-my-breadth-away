@@ -1,4 +1,4 @@
-# Lake Evaporation Dynamics Analysis
+# Time Series Analysis and Modeling of Lake Evaporation Rates and Water Body Prediction
 
 ## Collaborators
 
